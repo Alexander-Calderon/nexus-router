@@ -1,3 +1,4 @@
-.gitignore 
+.gitignore
+composer.lock 
 resources/
 /vendor/
