@@ -3,7 +3,6 @@ namespace NexusRouter;
 
 use NexusRouter\Router;
 
-
 # PATH EXAMPLES #
 // Simple route
 Router::get('/users' , 'Controllers/User');
@@ -14,6 +13,10 @@ Router::get('/users/$list', 'Controllers/User');
 // Route with value and injected metadata value
 Router::get('/users/$list', 'Controllers/User', "getUsers");
 
+# Alternative syntax
+Router::get('/users' , 'Controllers/User')
+      ->get('/users/$list', 'Controllers/User')
+      ->get('/users/$list', 'Controllers/User', "getUsers");
 
 
 # CALLBACK EXAMPLES #

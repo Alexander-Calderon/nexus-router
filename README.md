@@ -46,6 +46,14 @@ Router::get('/users/$list', 'Controllers/User');
 Router::get('/users/$list', 'Controllers/User', "getUsers");
 ```
 
+Sintaxis alternativa `Fluent Design`
+```php
+Router::get('/users' , 'Controllers/User')
+      ->get('/users/$list', 'Controllers/User')
+      ->get('/users/$list', 'Controllers/User', "getUsers");
+```
+
+
 Puedes agregar tantas rutas como necesites, especificando el método HTTP correspondiente (por ejemplo, `get`, `post`, `put`, `delete`) y el controlador al que se debe redirigir la ruta.
 
 ## Ejemplos de Callbacks
