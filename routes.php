@@ -39,29 +39,3 @@ Router::get('/welcome/$name/$lastname', function($param1,$param2){
 
 
 
-
-
-// Router::get('/users', 'Controllers/User')
-//       ->get('/users/$list' , 'Controllers/User', "getUsers")
-// ;
-
-
-
-/*
-Test:
-+ ya no valida //users/s ni /users/s/ ó //users
-lo cuál solicita precisión a la solicitud y evitar bypass.
-
-+ se valida que si es / no entra ya que debe exigir un valor.
-por lo que /$var será diferente de solo /
-
-blocked unauthorized bypass:
-//list/section
-/users/list/
-/users/list/section/
-
-// fixed empty uri section checker in route section
-// because double slash aren´t converted to only 1 anymore in this version
-// for uri precision purposes.
-*/
-
