@@ -1,4 +1,4 @@
-![NexusRouter Icon](https://i.ibb.co/CB4r50G/nexusrouter1-short.png)
+![NexusRouter Icon](https://i.ibb.co/CB4r50G/nexusrouter1-short.png  | width=400)
 
 # NexusRouter
 
