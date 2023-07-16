@@ -63,17 +63,17 @@ Además de utilizar controladores, NexusRouter también te permite utilizar call
 ```php
 // Callback simple: http://localhost/welcome
 Router::get('/welcome', function(){
-    echo '¡Amo NexusRouter!';
+    echo 'I love Nexus Router!';
 });
 
 // Ejemplo con un parámetro: http://localhost/welcome/alexander
 Router::get('/welcome/$name', function($param1){
-    echo $param1 . ' ama NexusRouter!';
+    echo $param1 . ' loves Nexus Router!';
 });
 
 // Ejemplo con múltiples parámetros: http://localhost/welcome/alexander/calderon
 Router::get('/welcome/$name/$lastname', function($param1,$param2){
-    echo $param1 . ' ' . $param2 . ' ama NexusRouter!';
+    echo $param1 . ' ' . $param2 . ' loves Nexus Router!';
 });
 ```
 
