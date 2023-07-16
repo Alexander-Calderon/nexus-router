@@ -23,7 +23,7 @@ NexusRouter es una herramienta poderosa que ofrece numerosas ventajas para la im
 
 ### Instalación Básica
 
-Para comenzar a usar NexusRouter en tu proyecto sin utilizar Composer, sigue los siguientes pasos:
+Para comenzar a usar NexusRouter en tu proyecto de forma básica, sigue los siguientes pasos:
 
 1. Descarga la carpeta `nexusRouter` y colócala en cualquier ubicación dentro de tu proyecto.
 
