@@ -1,6 +1,6 @@
-<p align="center">
+<div align="center">
   <img src="https://i.ibb.co/CB4r50G/nexusrouter1-short.png" alt="NexusRouter Icon">
-</p>
+</div>
 
 
 # NexusRouter
