@@ -39,21 +39,36 @@ Si prefieres utilizar Composer para administrar las dependencias de tu proyecto,
 
 1. En la terminal, navega hasta el directorio raíz de tu proyecto.
 
-2. Ejecuta el siguiente comando para agregar NexusRouter como una dependencia en tu archivo `composer.json`:
+2. Si aún no tienes un archivo `composer.json` en tu proyecto, ejecuta el siguiente comando para crearlo:
 
    ```bash
-   composer require alexandercalderon/nexus-router
+   composer init
    ```
 
-3. Incluye el archivo `autoload.php` generado por Composer en tu archivo `index.php` de la siguiente manera:
+   Este comando te guiará a través de la creación del archivo `composer.json` con información básica sobre tu proyecto.
+
+   > **Nota**: Si ya tienes un archivo `composer.json`, puedes omitir este paso.
+
+3. Una vez que tengas el archivo `composer.json`, ejecuta el siguiente comando para agregar NexusRouter como una dependencia en tu proyecto:
+
+   ```bash
+   composer require foca/nexus-router
+   ```
+
+   Esto descargará e instalará NexusRouter y sus dependencias en la carpeta `vendor` de tu proyecto, y actualizará automáticamente el archivo `composer.json` con la nueva dependencia.
+
+4. Incluye el archivo `autoload.php` generado por Composer en tu archivo `index.php` de la siguiente manera:
 
    ```php
    require 'vendor/autoload.php';
    ```
    Este cargará automáticamente el `NexusRouter` por lo que ya no es necesario importar el archivo `NexusLoader.php`.
-4. Asegúrate de que el archivo `.htaccess` esté presente en la raíz de tu proyecto.
 
-5. Dentro de la carpeta `vendor/alexandercalderon/nexus-router`, encontrarás un archivo llamado `routes.php`. En este archivo, puedes definir todas las rutas que deseas controlar utilizando NexusRouter.
+5. Asegúrate de que el archivo `.htaccess` esté presente en la raíz de tu proyecto.
+
+6. Dentro de la carpeta `vendor/foca/nexus-router`, encontrarás un archivo llamado `routes.php`. En este archivo, puedes definir todas las rutas que deseas controlar utilizando NexusRouter.
+
+> **Nota**: Los archivos de ejemplo `index.php` y `.htaccess` se pueden encontrar en la carpeta del paquete instalado, en este caso `vendor/foca/nexus-router`.
 
 ## Configuración Flexible de Rutas
 
