@@ -1,4 +1,7 @@
-![NexusRouter Icon](https://i.ibb.co/z7zpBd6/nexusrouter1-short.png)
+<p align="center">
+  <img src="https://i.ibb.co/CB4r50G/nexusrouter1-short.png" width="400" alt="NexusRouter Icon">
+</p>
+
 
 # NexusRouter
 
