@@ -1,6 +1,6 @@
 {
     "name": "foca/nexus-router",
-    "version": "1.0.0",
+    "version": "1.0.0-RC",
     "description": "NexusRouter is a PHP router designed to simplify the creation and management of routes in your project. With NexusRouter, you can easily define the routes and controllers you want to use in your web application.",
     "require": {
         "php": "^8.0"
@@ -16,5 +16,5 @@
             "name": "Alexander Calderón"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "RC"
 }
