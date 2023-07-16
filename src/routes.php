@@ -1,7 +1,7 @@
 <?php
 namespace NexusRouter;
 
-use NexusRouter\Router;
+use NexusRouter\Core\Router;
 
 # PATH EXAMPLES #
 // Simple route

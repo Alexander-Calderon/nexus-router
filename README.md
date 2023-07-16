@@ -21,7 +21,9 @@ NexusRouter es una herramienta poderosa que ofrece numerosas ventajas para la im
 
 ## Instalación
 
-Para comenzar a usar NexusRouter en tu proyecto, sigue los siguientes pasos:
+### Instalación Básica
+
+Para comenzar a usar NexusRouter en tu proyecto sin utilizar Composer, sigue los siguientes pasos:
 
 1. Descarga la carpeta `nexusRouter` y colócala en cualquier ubicación dentro de tu proyecto.
 
@@ -30,6 +32,51 @@ Para comenzar a usar NexusRouter en tu proyecto, sigue los siguientes pasos:
 3. Incluye el archivo `.htaccess` en la raíz de tu proyecto. Este archivo es necesario para que NexusRouter funcione correctamente con el servidor Apache.
 
 4. Dentro de la carpeta `nexusRouter`, encontrarás un archivo llamado `routes.php`. En este archivo, puedes definir todas las rutas que deseas controlar utilizando NexusRouter.
+
+### Instalación usando Composer
+
+Si prefieres utilizar Composer para administrar las dependencias de tu proyecto, puedes instalar NexusRouter de la siguiente manera:
+
+1. En la terminal, navega hasta el directorio raíz de tu proyecto.
+
+2. Ejecuta el siguiente comando para agregar NexusRouter como una dependencia en tu archivo `composer.json`:
+
+   ```bash
+   composer require alexandercalderon/nexus-router
+   ```
+
+3. Incluye el archivo `autoload.php` generado por Composer en tu archivo `index.php` de la siguiente manera:
+
+   ```php
+   require 'vendor/autoload.php';
+   ```
+   Este cargará automáticamente el `NexusRouter` por lo que ya no es necesario importar el archivo `NexusLoader.php`.
+4. Asegúrate de que el archivo `.htaccess` esté presente en la raíz de tu proyecto.
+
+5. Dentro de la carpeta `vendor/alexandercalderon/nexus-router`, encontrarás un archivo llamado `routes.php`. En este archivo, puedes definir todas las rutas que deseas controlar utilizando NexusRouter.
+
+## Configuración Flexible de Rutas
+
+Antes de utilizar NexusRouter en tu proyecto, puedes configurar si deseas cargar o no las rutas desde el archivo `routes.php`. Esta configuración se realiza en el archivo `config.php` ubicado en la carpeta `nexusRouter`.
+
+Para controlar la carga de rutas desde el archivo `routes.php`, sigue estos pasos:
+
+1. Abre el archivo `config.php` ubicado en la carpeta `nexusRouter`.
+
+2. Busca la constante llamada `ENABLE_ROUTES_FILE` y configúrala según tus necesidades:
+
+   ```php
+   public const ENABLE_ROUTES_FILE = true; // Cargar rutas desde routes.php
+   // public const ENABLE_ROUTES_FILE = false; // No cargar rutas desde routes.php
+   ```
+
+   - Si estableces `ENABLE_ROUTES_FILE` como `true`, NexusRouter
+
+ cargará las rutas definidas en el archivo `routes.php`.
+   - Si estableces `ENABLE_ROUTES_FILE` como `false`, NexusRouter no cargará las rutas desde el archivo `routes.php`.
+
+Recuerda que también puedes definir rutas directamente en el archivo `index.php` antes de la instanciación de `NexusLoader` si `ENABLE_ROUTES_FILE` está configurado como `false`. Esto te brinda flexibilidad para agregar rutas adicionales o condiciones personalizadas en tu archivo `index.php`.
+
 
 ## Ejemplos de Rutas
 

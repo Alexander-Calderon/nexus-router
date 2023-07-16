@@ -1,5 +1,6 @@
 <?php
-namespace NexusRouter;
+namespace NexusRouter\Core;
+
 use NexusRouter\Config;
 
 class Router {
