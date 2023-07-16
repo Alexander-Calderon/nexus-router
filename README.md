@@ -25,13 +25,13 @@ NexusRouter es una herramienta poderosa que ofrece numerosas ventajas para la im
 
 Para comenzar a usar NexusRouter en tu proyecto de forma básica, sigue los siguientes pasos:
 
-1. Descarga la carpeta `nexusRouter` y colócala en cualquier ubicación dentro de tu proyecto.
+1. Descarga el proyecto clonando el repositorio, este generará la carpeta `nexus-router` , colócala en cualquier ubicación dentro de tu proyecto.
 
 2. Asegúrate de que el archivo `NexusLoader.php` esté importado en el archivo `index.php` de la raíz de tu proyecto. Esto permitirá que NexusRouter se cargue correctamente cuando se acceda a tu aplicación.
 
 3. Incluye el archivo `.htaccess` en la raíz de tu proyecto. Este archivo es necesario para que NexusRouter funcione correctamente con el servidor Apache.
 
-4. Dentro de la carpeta `nexusRouter`, encontrarás un archivo llamado `routes.php`. En este archivo, puedes definir todas las rutas que deseas controlar utilizando NexusRouter.
+4. Dentro de la carpeta `nexus-router`, encontrarás un archivo llamado `routes.php`. En este archivo, puedes definir todas las rutas que deseas controlar utilizando NexusRouter.
 
 ### Instalación usando Composer
 
@@ -76,7 +76,7 @@ Antes de utilizar NexusRouter en tu proyecto, puedes configurar si deseas cargar
 
 Para controlar la carga de rutas desde el archivo `routes.php`, sigue estos pasos:
 
-1. Abre el archivo `config.php` ubicado en la carpeta `nexusRouter`.
+1. Abre el archivo `config.php` ubicado en la carpeta `nexus-router`.
 
 2. Busca la constante llamada `ENABLE_ROUTES_FILE` y configúrala según tus necesidades:
 
@@ -143,7 +143,7 @@ Puedes definir callbacks directamente en las rutas, lo que te permite ejecutar c
 
 ## Configuración
 
-Si deseas personalizar la configuración de NexusRouter, puedes hacerlo modificando el archivo `config.php` ubicado en la carpeta `nexusRouter`. En este archivo, puedes realizar los siguientes ajustes:
+Si deseas personalizar la configuración de NexusRouter, puedes hacerlo modificando el archivo `config.php` ubicado en la carpeta `nexus-router`. En este archivo, puedes realizar los siguientes ajustes:
 
 - `OUTPUT_MODE`: Define el formato de salida deseado para las respuestas. Puedes elegir entre "WEB", "JSON" o "XML".
 
