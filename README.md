@@ -11,7 +11,7 @@ NexusRouter es un enrutador de PHP diseñado para simplificar la creación y ges
 
 NexusRouter es una herramienta poderosa que ofrece numerosas ventajas para la implementación de rutas en tus proyectos en entornos de producción y pruebas. Algunas de las ventajas clave de NexusRouter incluyen:
 
-- **Fácil implementación**: NexusRouter se integra de manera sencilla en tus proyectos existentes. Solo necesitas agregar la carpeta `nexusRouter` en tu proyecto y realizar una simple importación del archivo `NexusLoader.php` en el archivo `index.php` de la raíz del proyecto.
+- **Fácil implementación**: NexusRouter se integra de manera sencilla en tus proyectos existentes. Solo necesitas agregar la carpeta `nexus-router` en tu proyecto y realizar una simple importación del archivo `NexusLoader.php` en el archivo `index.php` de la raíz del proyecto.
 
 - **Flexibilidad en el manejo de rutas**: Puedes utilizar rutas a controladores o callbacks, lo que te brinda la libertad de elegir cómo manejar las solicitudes entrantes. Puedes definir rutas que se redirijan a controladores específicos o utilizar callbacks personalizados para ejecutar código en respuesta a una ruta determinada.
 
@@ -72,7 +72,7 @@ Si prefieres utilizar Composer para administrar las dependencias de tu proyecto,
 
 ## Configuración Flexible de Rutas
 
-Antes de utilizar NexusRouter en tu proyecto, puedes configurar si deseas cargar o no las rutas desde el archivo `routes.php`. Esta configuración se realiza en el archivo `config.php` ubicado en la carpeta `nexusRouter`.
+Antes de utilizar NexusRouter en tu proyecto, puedes configurar si deseas cargar o no las rutas desde el archivo `routes.php`. Esta configuración se realiza en el archivo `config.php` ubicado en la carpeta `nexus-router`.
 
 Para controlar la carga de rutas desde el archivo `routes.php`, sigue estos pasos:
 
