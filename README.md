@@ -159,4 +159,4 @@ NexusRouter se distribuye bajo la Licencia MIT. Consulta el archivo `LICENSE` pa
 
 ---
 
-¡Disfruta utilizando NexusRouter para simplificar el enrutamiento en tu proyecto! Si tienes alguna pregunta o problema, no dudes en comunicarte con el autor original o buscar ayuda en la documentación y recursos disponibles.
+¡Disfruta utilizando NexusRouter para simplificar el enrutamiento en tu proyecto! Si tienes alguna pregunta o problema, no dudes en ir a llorar a un rincón, comunicarte con el autor original o buscar ayuda en la documentación y recursos disponibles.
