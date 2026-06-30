@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.ibb.co/HM9RpYJ/Nexus-Router.png" alt="NexusRouter Icon"/>
+  <img src="https://i.ibb.co/mVQHdMpx/Nexus-Router.png" alt="NexusRouter Icon"/>
 </div>
 
 
